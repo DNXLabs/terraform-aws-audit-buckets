@@ -65,7 +65,8 @@ resource "aws_s3_bucket" "logs" {
 
   lifecycle {
     ignore_changes = [
-      versioning
+      versioning,
+      grant
     ]
   }
 
