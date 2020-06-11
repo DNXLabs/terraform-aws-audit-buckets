@@ -4,6 +4,7 @@
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-buckets)](https://github.com/DNXLabs/terraform-aws-audit-buckets/blob/master/LICENSE)
 
 <!--- BEGIN_TF_DOCS --->
+
 ## Requirements
 
 | Name | Version |
@@ -26,7 +27,9 @@
 
 ## Outputs
 
-No output.
+| Name | Description |
+|------|-------------|
+| s3\_bucket\_name | n/a |
 
 <!--- END_TF_DOCS --->
 
