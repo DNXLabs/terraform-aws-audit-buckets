@@ -1,5 +1,20 @@
 # terraform-aws-audit-buckets
 
+Terraform-aws-audit-buckets is a module to create a schedule to shut down or start a Relational database service (RDS)
+
+This module requires:
+ * Terraform Version >=0.12.20
+
+This modules creates the following resources:
+ -  Encrypted bucket to save config logs
+ -  Encrypted Bucket to save audit 
+ 
+In addition you have the option to specifies:
+ - How many days before transitioning files to Infrequent-Access (IA)
+ - How many days before transitioning files to Glacier
+
+ 
+
 [![Lint Status](https://github.com/DNXLabs/terraform-aws-audit-buckets/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-audit-buckets/actions)
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-buckets)](https://github.com/DNXLabs/terraform-aws-audit-buckets/blob/master/LICENSE)
 
