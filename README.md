@@ -6,8 +6,8 @@ This module requires:
  * Terraform Version >=0.12.20
 
 This modules creates the following resources:
- -  Encrypted bucket to save config logs
- -  Encrypted Bucket to save audit 
+ -  AWS Config centralized bucket for Audit accounts
+ -  Encrypted Bucket to save audit  logs
  
 In addition you have the option to specifies:
  - How many days before transitioning files to Infrequent-Access (IA)
