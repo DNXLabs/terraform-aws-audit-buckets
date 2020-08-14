@@ -9,7 +9,7 @@ The following resources will be created:
  -  AWS Config centralized bucket for Audit accounts
  -  Encrypted Bucket to save audit  logs
 
-In addition you have the option to specifies:
+In addition, you have the option to specify:
  - How many days before transitioning files to Infrequent-Access (IA)
  - How many days before transitioning files to Glacier
 
