@@ -3,6 +3,16 @@
 [![Lint Status](https://github.com/DNXLabs/terraform-aws-audit-buckets/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-audit-buckets/actions)
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-buckets)](https://github.com/DNXLabs/terraform-aws-audit-buckets/blob/master/LICENSE)
 
+This terraform module creates buckets to save audit logs from accounts in the organization
+
+The following resources will be created:
+ -  AWS Config centralized bucket for Audit accounts
+ -  Encrypted Bucket to save audit  logs
+
+In addition, you have the option to specify:
+ - How many days before transitioning files to Infrequent-Access (IA)
+ - How many days before transitioning files to Glacier
+
 <!--- BEGIN_TF_DOCS --->
 
 ## Requirements
