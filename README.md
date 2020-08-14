@@ -5,7 +5,7 @@
 
 This terraform module creates buckets to save audit logs from accounts in the organization
 
-This modules creates the following resources:
+The following resources will be created:
  -  AWS Config centralized bucket for Audit accounts
  -  Encrypted Bucket to save audit  logs
 
