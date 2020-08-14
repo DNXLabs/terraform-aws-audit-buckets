@@ -13,7 +13,6 @@ In addition, you have the option to specify:
  - How many days before transitioning files to Infrequent-Access (IA)
  - How many days before transitioning files to Glacier
 
-
 <!--- BEGIN_TF_DOCS --->
 
 ## Requirements
