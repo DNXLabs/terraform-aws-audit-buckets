@@ -39,7 +39,8 @@ In addition, you have the option to specify:
 
 | Name | Description |
 |------|-------------|
-| s3\_bucket\_name | n/a |
+| config\_s3\_bucket\_name | n/a |
+| logs\_s3\_bucket\_name | n/a |
 
 <!--- END_TF_DOCS --->
 
